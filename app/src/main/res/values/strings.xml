@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Capstone_project</string>
+    <string name="event_location_event_location">Event Location: Event Location</string>
+    <string name="event_price_event_price">Event Price: Event Price</string>
+    <string name="event_description_event_description">Event Description: Event Description</string>
+    <string name="event_time_event_time">Event Time: Event Time</string>
+    <string name="your_event_name">Your Event Name</string>
+    <string name="event_date_event_date">Event Date: Event Date</string>
+    <string name="lbl_login2">\n</string>
+</resources>

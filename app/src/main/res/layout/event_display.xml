@@ -1,0 +1,58 @@
+<!-- res/layout/event_card_layout.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    style="@style/EventCard">
+
+    <TextView
+        android:id="@+id/eventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_event_name"
+        style="@style/EventName" />
+
+    <TextView
+        android:id="@+id/eventDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/event_date_event_date"
+        style="@style/EventDetail" />
+
+    <TextView
+        android:id="@+id/eventTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/event_time_event_time"
+        style="@style/EventDetail" />
+
+    <TextView
+        android:id="@+id/eventLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/event_location_event_location"
+        style="@style/EventDetail" />
+
+    <TextView
+        android:id="@+id/eventPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/event_price_event_price"
+        style="@style/EventDetail" />
+
+    <TextView
+        android:id="@+id/eventDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/event_description_event_description"
+        style="@style/EventDescription" />
+
+
+
+
+
+
+
+</LinearLayout>
+

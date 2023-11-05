@@ -1,0 +1,37 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <style name="EventCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="EventName">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="EventDetail">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="EventDescription">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">#444444</item>
+    </style>
+
+    <style name="txtIntersemibold14_2"></style>
+
+    <style name="btnSolidRounded_6"></style>
+
+    <style name="btnSolidRounded_5"></style>
+
+    <style name="groupStyleblack_900"></style>
+</resources>

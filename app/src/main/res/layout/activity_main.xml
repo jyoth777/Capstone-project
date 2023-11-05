@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="FirstPageVM" type="com.Capstone project.app.modules.activity.data.view-model.FirstPageVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearFirstpage"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleblack_900">
+        <FrameLayout android:gravity="start"
+            android:id="@+id/frameStackoipone"
+            android:layout_height="@dimen/_434pxv" android:layout_width="match_parent">
+
+            <FrameLayout
+                android:id="@+id/frameStackellipsetwo"
+                android:layout_width="match_parent"
+                android:layout_height="426dp"
+                android:layout_gravity="bottom|start"
+                android:layout_marginTop="@dimen/_10pxv">
+
+                <LinearLayout
+                    android:id="@+id/linearColumnlanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_40pxh"
+                    android:layout_marginTop="@dimen/_14pxv"
+                    android:layout_marginEnd="@dimen/_40pxh"
+                    android:layout_marginBottom="@dimen/_13pxv"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnLogin"
+                        style="@style/btnSolidRounded_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="62dp"
+                        android:layout_marginTop="@dimen/_24pxv"
+                        android:layout_marginEnd="@dimen/_1pxh"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_7pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingBottom="@dimen/_7pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_login2"
+                        android:textAllCaps="false"
+                        tools:text="Reccomendations" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnCreateAnAccountOne"
+                        style="@style/btnSolidRounded_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="66dp"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_marginTop="@dimen/_16pxv"
+                        android:layout_marginEnd="@dimen/_4pxh"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:paddingStart="@dimen/_27pxh"
+                        android:paddingTop="@dimen/_7pxv"
+                        android:paddingEnd="@dimen/_25pxh"
+                        android:paddingBottom="@dimen/_7pxv"
+                        android:singleLine="true"
+                        android:text="Reccomendations"
+                        android:textAllCaps="false"
+                        tools:text="Augmented reality" />
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/txtBeginwithus"
+                style="@style/txtIntersemibold14_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_13pxh"
+                android:layout_marginTop="@dimen/_15pxv"
+                android:layout_marginEnd="@dimen/_43pxh"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@{FirstPageVM.firstPageModel.txtBeginwithus}"
+                tools:text="Streamlined for you" />
+        </FrameLayout>
+    </LinearLayout>
+</layout>

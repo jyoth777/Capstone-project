@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="eventTime" type="id" />
+    <item name="eventLocation" type="id" />
+    <item name="eventPrice" type="id" />
+    <item name="eventDescription" type="id" />
+    <item name="eventDate" type="id" />
+    <item name="eventName" type="id" />
+</resources>
